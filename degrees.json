@@ -1,0 +1,16 @@
+{
+    "my_degrees": [
+        {
+            "school": "University of California, Davis",
+            "program_major": "Pharmaceutical Chemistry",
+            "type": "BS",
+            "year_conferred": "2019"
+        },
+        {
+            "school": "Boston University Metropolitan College",
+            "program_major": "Software Development",
+            "type": "MS",
+            "year_conferred": "2024"
+        }
+    ]
+}

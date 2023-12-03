@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #0e385f;
+}
+
+button {
+    background-color: #5b9bd5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4a8ab7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #5b9bd5;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Loading Indicator */
+.loading-indicator {
+    display: none; /* hidden by default */
+}
+
+.loading-indicator.active {
+    display: block;
+    text-align: center;
+    color: #5b9bd5;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        padding: 10px 18px;
+        font-size: 16px;
+    }
+
+    table {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    button {
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 18px;
+    }
+}
